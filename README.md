@@ -16,10 +16,10 @@ time and displays the result directly on the video feed.
 
 
 🛠️ Technologies Used
-PythonCore programming language
-OpenCVWebcam capture & face detection
-DeepFaceEmotion classification model
-Haar CascadeFace detection classifier
+:PythonCore programming language,
+OpenCVWebcam capture & face detection,
+DeepFaceEmotion classification model,
+Haar CascadeFace detection classifier,
 
 ⚙️ How To Run
 Step 1 — Install required libraries:
