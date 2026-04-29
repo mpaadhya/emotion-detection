@@ -43,7 +43,7 @@ The emotion label is drawn on screen in real time
 
 
 🎓 About
-Developed as part of M.Tech in Computer Science & Engineering
+Developed as part of B.Tech in Computer Science & Engineering
 @ MRITS, Hyderabad
 Author: Aadhya MP
 GitHub: github.com/mpaadhya
