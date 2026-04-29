@@ -1,24 +1,46 @@
-# Real-Time Emotion Detection System
+🎭 Real-Time Emotion Detection System
+A real-time facial emotion detection system that identifies and classifies
+human emotions from a live webcam feed using deep learning and computer vision.
 
-## About
-A real-time facial emotion detection system that identifies 
-human emotions using deep learning and computer vision.
+📌 About The Project
+This project captures live video from a webcam, detects faces in each frame,
+and classifies the emotion being expressed. It can detect 7 emotions in real
+time and displays the result directly on the video feed.
 
-## Technologies Used
-- Python
-- OpenCV
-- DeepFace
-- Haar Cascade Classifier
+✨ Features
 
-## How It Works
-1. Captures live video from webcam
-2. Detects faces using Haar Cascade classifiers
-3. Classifies emotions — Happy, Sad, Angry, Neutral, Surprise etc.
-4. Displays emotion label in real time on screen
+🎥 Real-time webcam face detection
+😊 Detects 7 emotions — Happy, Sad, Angry, Neutral, Surprise, Fear, Disgust
+🖼️ Draws bounding box around detected face with emotion label
+⚡ Fast and lightweight using DeepFace library
 
-## How to Run
-pip install opencv-python deepface
-python emotion-detection.py
 
-## Author
-Aadhya MP | [GitHub](https://github.com/mpaadhya)
+🛠️ Technologies Used
+TechnologyPurposePythonCore programming languageOpenCVWebcam capture & face detectionDeepFaceEmotion classification modelHaar CascadeFace detection classifier
+
+⚙️ How To Run
+Step 1 — Install required libraries:
+bashpip install opencv-python deepface
+Step 2 — Run the project:
+bashpython emotion-detection.py
+Step 3 — Allow webcam access when prompted
+A window will open showing your live webcam feed with emotion labels displayed in real time.
+Press Q to quit.
+
+📁 Project Structure
+emotion-detection/
+└── emotion-detection.py    # Main script
+
+📸 How It Works
+
+OpenCV captures live video from your webcam frame by frame
+Haar Cascade classifier detects the face region in each frame
+DeepFace model analyzes the face and predicts the emotion
+The emotion label is drawn on screen in real time
+
+
+🎓 About
+Developed as part of M.Tech in Computer Science & Engineering
+@ MRITS, Hyderabad
+Author: Aadhya MP
+GitHub: github.com/mpaadhya
